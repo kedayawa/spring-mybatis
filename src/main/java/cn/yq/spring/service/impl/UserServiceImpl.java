@@ -13,7 +13,7 @@ public class UserServiceImpl implements UserService{
 	private UserMapper userMapper;
 
 	public void save(User user) {
-		userMapper.Save(user);		
+		userMapper.save(user);		
 	}
 	
 	

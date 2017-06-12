@@ -7,6 +7,6 @@ public interface UserMapper {
 	 * 新增
 	 * @param user
 	 */
-  void 	Save(User user); 
+  void 	save(User user); 
 
 }

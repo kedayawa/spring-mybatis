@@ -14,8 +14,8 @@ public class UserTest extends BaseTest{
 	@Test
 	public void saveTest(){
 		User user = new User();
-		user.setId("556");
-		user.setName("556");
+		user.setId("557");
+		user.setName("557");
 		userService.save(user);
 	}
 }
