@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<typeAliases>
+	<!--实体类别名  -->
+	<typeAlias alias="User" type="cn.yq.spring.entity.User"/>
+	</typeAliases>
+	<!--不能使用cn.yq.spring.mapper.UserMapper.xml格式  -->
+	<mappers>
+		<mapper resource="cn/yq/spring/mapper/UserMapper.xml"/>
+	</mappers>
+</configuration>
